@@ -2,7 +2,7 @@ import { readFile, writeFile } from "fs/promises";
 import { Request, Response } from "express";
 import { AxiosError } from "axios";
 import { StatusCodes } from "http-status-codes";
-import { api } from "../../shared/api/axios";
+import { apiEmpresa as api } from "../../shared/api/axios";
 
 const path = "src/server/shared/services/empresas.json";
 
